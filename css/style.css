@@ -1,0 +1,810 @@
+
+
+*{
+
+    -ms-box-sizing: border-box;
+
+    -o-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+
+    font-family: 'Raleway', sans-serif;
+
+    overflow-x: hidden;
+
+    width: 100%;
+
+    height: 100%;
+
+    
+
+    
+}
+
+
+
+/*--------------------------------------------
+
+              Start Navbar
+
+---------------------------------------------*/
+
+.navbar-default{
+
+    /* navbar color */
+
+    background: transparent;
+
+    border: none;
+
+    padding: 25px 0 10px 0;
+
+    margin-bottom: 0;
+
+    -webkit-transition:all .3s ease-in-out;
+
+    transition:all .3s ease-in-out;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+
+    background-color: rgba(238, 238, 238, 0.72);
+
+}
+
+/* start navbar color for name project */
+
+.navbar-default .navbar-brand {
+
+    color: #fff;
+
+    font-size: 23px;
+
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+   
+
+}
+
+ 
+
+.navbar-brand span{
+
+    font-size: 17px;
+    
+
+}
+
+/* end navbar color for name project */
+
+.navbar-default .navbar-nav  li:last-of-type{
+
+    padding-right: 40px;
+    
+
+}
+
+/* color a */
+
+.navbar-default .navbar-nav > li > a {
+
+    color: #fff;
+
+    font-weight: bold;
+
+    text-transform: capitalize;
+
+}
+
+/* link when Hover  */
+
+.navbar-default .navbar-nav > li > a:hover,
+
+.navbar-default .navbar-nav > li > a:focus {
+
+    color: #45d2eb;
+    transition: all 0.5s ease-out; 
+
+    background-color: transparent;
+    
+    
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+
+.navbar-default .navbar-nav > .active > a:hover,
+
+.navbar-default .navbar-nav > .active > a:focus 
+
+{   /* navbar when active, hover and foucus */
+
+    color: #DDD;
+
+    border-bottom: 2px solid #0ff;
+
+}
+
+/* end navbar for bootstrap*/
+
+.navscroll{
+
+    background: #fff;
+
+    top: 0;
+
+    padding: 4px;
+
+    margin-top: 0px;
+
+    box-shadow: 0 15px 60px rgba(218, 216, 216, 0.84);
+
+    -webkit-transition:all .3s ease-in-out;
+
+    transition:all .3s ease-in-out;
+
+}
+
+.color-link{
+
+    color: rgb(226, 96, 96) !important;
+
+}
+
+.padding-nav{
+
+    padding: 15px 0;
+
+    -webkit-transition:all .7s ease-in-out;
+
+    transition:all .7s ease-in-out;
+
+}
+
+/*---------------------------------------------
+
+                End Navbar
+
+-----------------------------------------------*/
+
+
+
+
+.home-page{
+
+    width: 100%;
+
+    height: 100%;
+
+    top: 0;
+
+    color: #fff;
+
+    overflow: hidden;
+
+}
+
+.home-page .icons a {
+    padding: 0.4rem;
+    color: whitesmoke; 
+    
+}
+ .home-page .icons a:hover {
+      color: #45d2eb;
+      transition: all 0.5s ease-out; 
+    }
+
+.sub-container h1,
+
+.sub-container h2,
+
+.sub-container h4{
+
+    color: #fff;
+
+    letter-spacing: 1px;
+
+}
+
+.sub-container h4{
+
+    font-weight: 500;
+
+    letter-spacing: 5px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 3px;
+
+    margin-top: 20px;
+
+}
+
+.sub-container h2{
+
+    font-size: 25px;
+
+    letter-spacing: 1.5px;
+
+    margin-top: 0;
+
+    margin-bottom: 40px;
+
+}
+
+.sub-container h1{
+
+    font-size: 6em;
+
+    font-weight: 900;
+
+    margin: 0;
+
+}
+
+
+
+
+@keyframes cd-translate {
+
+  0% {
+
+      opacity: .8
+
+  }
+
+  50% {
+
+     -webkit-transform: translateY(12px)  scale(1);
+
+      opacity: 0;
+
+  }
+
+  100% {
+
+    -webkit-transform:  scale(1);
+
+      opacity: .6;
+
+      
+
+  }
+
+}
+
+/* -----------------------------------------------
+
+               End Home Page
+
+--------------------------------------------------*/
+
+
+
+/*------------------------------------------------
+
+              start about Page 
+
+--------------------------------------------------*/
+
+.about .container h2:before{
+
+    content: "";
+
+    position: absolute;
+
+    border-width: 1px;
+
+    padding-left: 144px;
+
+    border-color: transparent transparent #333;
+
+    padding-bottom: 12px;
+
+    margin-top: 25px;
+
+    border-style: solid;
+
+    color: #fff;
+
+
+}
+
+.about .container  img{
+
+    max-width: 100%;
+
+    height: auto;
+
+    margin-bottom: 20px;
+
+    border-radius: 13px; 
+
+    border: 2.5px solid rgb(231, 226, 226);
+
+
+}
+
+.about .container  h2{
+
+    margin-bottom: 25px;
+
+    margin-top: 15px;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+
+    color: #fff;
+
+    
+    
+
+}
+
+.about .container .sub-p{
+
+    padding: 16px 0;
+
+    line-height: 30px;
+
+    color: #fff;
+
+    
+
+
+
+}
+
+.about .container .sub-text{
+
+    color:#fff;
+
+    line-height: 30px;
+
+    margin-top: 25px;
+
+    
+
+}
+
+.about .container a{
+
+    color:#fff;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    padding: 0 5px;
+
+    font-weight: 600;
+
+
+}
+
+.about .container a:hover{
+
+    text-decoration: line-through;
+
+}
+
+/*--------------------------------------------------
+
+               End about Page
+
+----------------------------------------------------*/
+
+
+
+
+/*--------------------------
+
+        Start Work Page 
+
+----------------------------*/
+
+.portfoliopage h2{
+
+    content: "";
+
+    position: absolute;
+
+    padding-left: 500px;
+
+    padding-bottom: 50px;
+
+    margin-top: 50px;
+
+    margin-bottom: 0.4rem;
+    text-decoration: wavy;
+
+
+
+}
+
+.portfoliopage p{
+    color: #fff;
+    content: "";
+    position: absolute;
+
+    padding-left: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+.filtr-item {
+
+    padding: 1rem;
+
+}
+
+.item-desc {
+
+    background-color: rgb(14, 8, 8);
+
+    color: white;
+
+    position: absolute;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    padding: 1rem;
+
+    z-index: 1;
+
+    bottom: 1rem;
+
+    left: 1rem;
+
+    right: 1rem;
+
+}
+
+/* Filter controls */
+
+.filtr-container{
+
+    margin-top: 40px;
+    
+
+}
+
+/* Filter controls */
+
+.div-hover{
+
+    background-color: rgba(23, 22, 22, 0.25);
+
+    color: white;
+
+    position: absolute;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    padding: 20px 0;
+
+    margin: 0px 13px;
+
+    z-index: 1;
+
+    top: 30%;
+
+    left: -2px;
+
+    right: -2px;
+
+    opacity: 0;
+
+    transition: all .5s ease-in-out;
+
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
+.div-hover a{
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
+
+.div-hover a i{
+
+    margin-right: 10px;
+
+}
+
+.filtr-item{
+
+    margin-bottom: 30px;
+
+}
+
+.filtr-item:hover .div-hover{
+
+    opacity: 1;
+
+}
+
+.div-hover a:hover .div-hover a:focus{
+
+    color: #fff;
+
+    border: none;
+
+}
+
+.item-desc{
+
+    position: absolute;
+
+    bottom: 11px;
+
+    text-align: center;
+
+    left: 10px;
+
+    right: 10px;
+
+    padding: 10px 0;
+
+    background: rgba(68, 68, 68, 0.44);
+
+    color: #fff;
+
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+}
+
+/*--------------------------
+
+        End Work Page 
+
+----------------------------*/
+
+
+
+
+
+/*------------------------------------------------------
+
+                Start General
+
+--------------------------------------------------------*/
+
+.about,
+
+.portfoliopage{
+
+    padding-top: 100px;
+
+    padding-bottom: 100px;
+
+    
+
+    
+
+}
+
+
+
+p{
+
+    font-size: 16px;
+
+    color: #fff;
+
+    line-height: 35px;
+
+    letter-spacing: 1px;
+
+}
+
+
+
+
+
+/* All Title For Site  */
+
+.row{
+
+    padding: 20px 0px;
+
+}
+
+
+ .portfoliopage .container h2{
+
+    background-image: url('./images/bg.png') cover;
+
+    font-size: 28px;
+
+    letter-spacing: 5px;
+
+    margin: 15px 0px 65px 0px;
+
+    font-weight: bolder;
+
+    text-transform: uppercase;
+
+    color: #fff;
+
+}
+
+
+
+
+/*-----------------------------------------------------------
+
+                        End General 
+
+------------------------------------------------------------- */
+
+
+
+/*------------------------------------------------------------
+
+                        Start Loading 
+
+--------------------------------------------------------------*/
+
+.loading-scroll-hiden{
+
+    overflow-y: hidden;
+
+}
+
+.body{
+
+    position: fixed;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: #fdfdfd;
+
+    z-index: 9999;
+
+    display: table;
+
+}
+
+.center{
+
+    display: table-cell;
+
+    vertical-align: middle;
+
+}
+
+.spinner {
+
+  margin: 100px auto;
+
+  width: 40px;
+
+  height: 40px;
+
+  position: relative;
+
+  text-align: center;
+
+  
+
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+
+  animation: sk-rotate 2.0s infinite linear;
+
+}
+
+
+
+.dot1, .dot2 {
+
+  width: 60%;
+
+  height: 60%;
+
+  display: inline-block;
+
+  position: absolute;
+
+  top: 0;
+
+  background-color: #333;
+
+  border-radius: 100%;
+
+  
+
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+
+  animation: sk-bounce 2.0s infinite ease-in-out;
+
+}
+
+
+
+.dot2 {
+
+  top: auto;
+
+  bottom: 0;
+
+  -webkit-animation-delay: -1.0s;
+
+  animation-delay: -1.0s;
+
+}
+
+
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+
+
+@-webkit-keyframes sk-bounce {
+
+  0%, 100% { -webkit-transform: scale(0.0) }
+
+  50% { -webkit-transform: scale(1.0) }
+
+}
+
+
+
+@keyframes sk-bounce {
+
+  0%, 100% { 
+
+    transform: scale(0.0);
+
+    -webkit-transform: scale(0.0);
+
+  } 50% { 
+
+    transform: scale(1.0);
+
+    -webkit-transform: scale(1.0);
+
+  }
+
+}
+
+
+
+/*-------------------------------------------------------------
+
+                      End Loading
+
+---------------------------------------------------------------*/

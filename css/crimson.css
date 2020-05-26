@@ -1,0 +1,208 @@
+
+
+body::-webkit-scrollbar-thumb {
+
+  background-color: #dc143c;
+
+}
+
+
+.btn-kotoby,
+
+.btn-kotobydown{
+
+    border: 1px solid #dc143c;
+
+    color: #dc143c;
+
+    
+
+}
+
+/* End Botton*/
+
+/*--------------------------------------------
+
+              Start Navbar
+
+---------------------------------------------*/
+
+.navbar-brand span {
+
+    color: #dc143c;
+
+}
+
+/*---------------------------------------------
+
+                End Navbar
+
+-----------------------------------------------*/
+
+
+
+/*---------------------------------------------
+
+               Start Home Page 
+
+-----------------------------------------------*/
+
+.angle-down i{
+
+    color: #dc143c;
+
+}
+
+
+
+/* -----------------------------------------------
+
+               End Home Page
+
+--------------------------------------------------*/
+
+
+
+/*------------------------------------------------
+
+              start about Page 
+
+--------------------------------------------------*/
+
+.about .container h2:before{
+
+    border-color: transparent transparent #dc143c;
+
+}
+
+.about .container a:hover{
+
+    color: #dc143c;
+
+}
+
+/*--------------------------------------------------
+
+               End about Page
+
+----------------------------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------------------------
+
+                  Start Portfolio 
+
+------------------------------------------------------*/
+
+
+
+/* Width For After In Portfolio*/
+
+.portfoliopage h2:before{
+
+    border-color: transparent transparent #dc143c;
+
+}
+
+.simplefilter li{
+
+    border: 1px solid #dc143c;
+
+}
+
+.simplefilter li.active{
+
+    background: #dc143c;
+
+    border: 1px solid #dc143c;
+
+}
+
+.box .box-content:before{
+
+    border-left: 1px solid #dc143c;
+
+    border-right: 1px solid #dc143c;
+
+}
+
+.box:hover .box-content:before{
+
+    top: 15px;
+
+    opacity: 1;
+
+}
+
+.box .box-content:after{
+
+    border-top: 1px solid #dc143c;
+
+    border-bottom: 1px solid #dc143c;
+
+}
+
+.box .icon li a:hover{
+
+    background: #dc143c;
+
+}
+
+/*------------------------------------------------------
+
+                End Portfolio
+
+--------------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------------------
+
+                        Start Loading 
+
+--------------------------------------------------------------*/
+
+.loader{
+
+    background: #dc143c;
+
+}
+
+.loader:after{
+
+    color: #dc143c;
+
+}
+
+.dot1, .dot2 {
+
+    background-color: #dc143c;
+
+}
+
+/*-------------------------------------------------------------
+
+                      End Loading
+
+---------------------------------------------------------------*/
+
+.dot1, .dot2 {
+
+    background-color: #DC143C;
+
+}
+
+/*-------------------------------------------------------------
+
+                      End Loading
+
+---------------------------------------------------------------*/
