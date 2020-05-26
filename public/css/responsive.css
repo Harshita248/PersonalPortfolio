@@ -1,0 +1,203 @@
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    .sub-container h1 {
+
+        font-size: 9em;
+
+        font-weight: 900;
+
+        margin: 0;
+
+        padding: 20px 0;
+
+        padding-top: 4px;
+
+    }
+
+    .sub-container h4 {
+
+        margin-top: 0px;
+
+    }
+
+    .sub-container h2 {
+
+        font-size: 20px;
+
+        letter-spacing: 1.5px;
+
+        margin-top: 0;
+
+        font-weight: 700;
+
+        margin-bottom: 40px;
+
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .sub-container h1 {
+
+        font-size: 5em;
+
+    }
+
+   
+
+    .navbar-nav {
+
+        background: #333;
+
+        margin-top: 0;
+
+    }
+
+    .nav > li {
+
+      text-align: center;
+
+    }
+
+    .navbar-default .navbar-nav  li:last-of-type{
+
+        padding-right: 0px;
+
+    }
+
+    .navbar-default .navbar-nav > .active > a,
+
+    .navbar-default .navbar-nav > .active > a:hover,
+
+    .navbar-default .navbar-nav > .active > a:focus {
+
+        color: #0ff;
+
+        border-bottom: none;
+
+    }   
+
+
+    .filtr-item img{
+
+        width: 100%;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    
+
+}
+
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+
+
+@media  (max-width: 480px) {
+
+    .sub-container h2 {
+
+        font-size: 20px;
+
+        letter-spacing: 0;
+
+        margin-top: 10px;
+
+        margin-bottom: 40px;
+
+        line-height: 26px;
+
+    }
+
+}
+
+
+
+
+
+/* Mobile Layout: 320px. */
+
+
+
+@media (max-width: 320px) {
+
+    
+
+    .box .box-content {
+
+        padding: 79px 0;
+
+    }
+
+   .contact h2:before {
+
+       padding-left: 218px;
+
+       margin-top: 29px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+{
+  "name": "PersonalPortfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://Harshita248.github.io/PersonalPortfolio",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
