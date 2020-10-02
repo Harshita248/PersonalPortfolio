@@ -117,3 +117,16 @@ $(function () {
     });
     
 }); // Close Function  
+
+
+/* Function to loose focus of butoon
+    so the list get merged  */
+//Button Collapse OnBlur
+$(function(){
+    $("#navbarToggle").blur(function(event){
+        var screenWidth = window.innerWidth;
+        if(screenWidth < 768){
+            $("#navbar").collapse('hide');
+        }
+    });
+}); //Close Button Collapse Function
